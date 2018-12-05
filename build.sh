@@ -6,6 +6,7 @@ rm -rf deployment
 # 代码
 mkdir -p deployment/code
 cp index.php deployment/code
+cp test.conf deployment/
 
 # 部署脚本
 cp deploy.sh deployment/
